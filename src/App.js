@@ -38,6 +38,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <h3>React Testing</h3>
       <img className="poster-img" src={show.image.original} alt={show.name} />
       <h1>{show.name}</h1>
       {parse(show.summary)}
@@ -48,6 +49,7 @@ export default function App() {
         placeholder="Select an option"
       />
       <Episodes episodes={episodes} />
+      
     </div>
   );
 }
